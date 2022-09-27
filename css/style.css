@@ -1,0 +1,226 @@
+/* RESET */
+
+img{
+    max-width: 100%;
+}
+
+/* COMMON */
+ul{
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+h2{
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#portfolio,
+#contact{
+    color: #2C3E50;
+}
+
+#portfolio .star-lines hr,
+#contact .star-lines hr{
+    border-color: #2C3E50;
+}
+
+.star-lines {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-lines i{
+    margin: 0 0.5em;
+    font-size: 25px;
+}
+
+.star-lines hr{
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 2px;
+    opacity: 1;
+}
+/* /COMMON */
+
+/* HEADER */
+header{
+    padding: 1rem 0;
+    background-color: #2C3E50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    color: white;
+    vertical-align: middle;
+}
+
+header h1{
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+/* hamburger */
+header i{
+    color: white;
+    border: 1px solid white;
+    padding: 0.4em 0.8em;
+    border-radius: 4px;
+}
+/* /hamburger */
+
+/* menu */
+header ul li{
+    margin-left: 2em;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 800;
+    opacity: 0.6;
+}
+/* /menu */
+
+/* /HEADER */
+
+/* MAIN */
+
+/* JUMBO */
+.jumbo{
+    margin-top: 55px;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.jumbo h1{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.jumbo .container-md .img-wrapper{
+    width: 250px;
+}
+
+
+.jumbo h3{
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+/* /JUMBO */
+
+/* PORTFOLIO */
+.img-card img{
+    border-radius: 20px;
+}
+
+/* /PORTFOLIO */
+
+/* ABOUT */
+#about{
+    background-color: #1ABC9C;
+    color: white;
+    margin-top: 4rem;
+}
+
+#about .text-wrapper{
+    width: 70%;
+    margin-top: 1rem;
+}
+#about .container-md a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid white;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+/* /ABOUT */
+
+/* CONTACT */
+#contact .form-wrapper{
+    width: 70%;
+    margin: 0 auto 2rem;
+}
+
+#contact .form-wrapper .form-box{
+    color: #2C3E50;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+#contact .form-box.form-box-lg{
+    padding-bottom: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact .form-wrapper a{
+    text-decoration: none;
+    color: white;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+}
+/* /CONTACT */
+
+/* SOCIAL */
+#social{
+    background-color: #3A546D;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+#social .around-web{
+    margin: 2rem auto;
+}
+
+#social .box{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 0.5rem;
+}
+
+#social .box a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#social .text-wrapper,
+#social .address{
+    font-size: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#social .text-wrapper span{
+    color: #1ABC9C;
+}
+/* /SOCIAL */
+
+/* /MAIN */
+
+/* FOOTER */
+footer{
+    background-color: #2C3E50;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+/* /FOOTER */
