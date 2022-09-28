@@ -16,27 +16,34 @@
     
     <!-- HEADER -->
     <header>
-        <div class="container">
-            <nav>
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-10 col-md-4">
-                        <h1 class="fs-6">START BOOTSTRAP</h1>
-                    </div>
-                    <div class="col-2 d-md-none text-end ">
-                        <a href="#"><i class="fa-solid fa-bars"></i></a>
-                    </div>
-                    <div class="d-none d-md-block col-md-6">
-                        <ul class="d-flex justify-content-end">
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                        </ul>
-                    </div>
+        <nav class="container">
+            <div class="row justify-content-between align-items-center">
+                
+                <!-- logo -->
+                <div class="col-10 col-md-4">
+                    <h1 class="fs-6">START BOOTSTRAP</h1>
                 </div>
-            </nav>
-        </div>
+                <!-- /logo -->
+
+                <!-- hamburger -->
+                <div class="col-2 d-md-none text-end ">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <!-- /hamburger -->
+
+                <!-- menu hamburger -->
+                <ul class="d-none col-md-6 d-md-flex justify-content-end">
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>           
+                <!-- /menu hamburger -->
+
+            </div>
+        </nav>
     </header>
     <!-- /HEADER -->
+
     <!-- MAIN -->
     <main>
         <!-- jumbo -->
@@ -65,7 +72,7 @@
                     <hr>
                 </div>
 
-                <div class="row gy-4 mb-4">
+                <div class="row g-3 mb-4">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="img-card">
                             <img src="img/cabin.png" alt="">
@@ -120,33 +127,47 @@
                         </div>
                     </div>
                 </div>
-                <a href="#"><i class="fa-solid fa-download"></i> Download</a>
+                <a href="#" class="mx-auto mb-4 ms_btn-primary"><i class="fa-solid fa-download"></i> Download</a>
             </div>
         </section>
         <!-- /about -->
 
         <!-- contact -->
         <section id="contact">
-            <div class="container-md">
+            <div class="container-md pb-4">
                 <h2>CONTACT ME</h2>
                 <div class="star-lines d-flex mx-auto">
                     <hr>
                     <i class="fa-solid fa-star"></i>
                     <hr>
                 </div>
-                <div class="form-wrapper">
-                    <div class="form-box">Name</div>
-                    <div class="form-box">Email Address</div>
-                    <div class="form-box">Phone Number</div>
-                    <div class="form-box form-box-lg">Message</div>
-                    <a href="#">Send</a>
+                
+                <!-- form -->
+                <div class="form-floating">
+                    <input type="text" placeholder="Name" class="form-control" id="name">
+                    <label for="name">Name</label>
                 </div>
+                <div class="form-floating">
+                    <input type="text" placeholder="Email Address" class="form-control" id="mail">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" placeholder="Phone Number" class="form-control" id="phone">
+                    <label for="phone">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea name="message" placeholder="Message" id="message" class="w-100 message-box" rows="4"></textarea>
+                </div>
+                <!-- /form -->
+
+                <a href="#" class="mx-auto ms_btn-primary px-3 my-4">Send</a>
+
             </div>
         </section>
         <!-- /contact -->
 
         <!-- social -->
-        <section id="social">
+        <section id="social" class="mt-4">
             <div class="container-md">
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -165,7 +186,7 @@
                     <div class="col-12 col-md-4">
                         <h5>ABOUT FREELANCER</h5>
                         <div class="text-wrapper">
-                            Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap.</span>
+                            Freelance is a free to use, open source Bootstrap theme created by <span class="ms_text-primary">Start Bootstrap.</span>
                         </div>
                     </div>
                 </div>
