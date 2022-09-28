@@ -178,24 +178,15 @@ header ul li a:hover{
 
 }
 
-#contact .form-control:focus{
-    box-shadow: none;
-}
-
 #contact .message-box{
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
-    border-color: rgb(209, 209, 209);
-    padding: 1rem;
+    height: 150px;
 }
 
+#contact .form-control:focus,
 #contact .form-control:focus-visible{
    box-shadow: none;
    border: 0;
 }
-
 
 /* /CONTACT */
 
